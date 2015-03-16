@@ -16,7 +16,8 @@ int main()
     int a,b;
 	while(scanf("%d%d",&a,&b)!=EOF)
 	{
-		printf("%d\n",gcd(a,b));
+		int k=a*b;
+		printf("%d\n",k/gcd(a,b));
 	}
 
 	return 0;
